@@ -14,6 +14,7 @@ class EmployeesListItem extends Component {
     increase = () => {
         this.setState(({increase}) => ({increase: !increase}))
     }
+
     like = () => {
         this.setState(({like}) => ({like: !like}))
     }
